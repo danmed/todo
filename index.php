@@ -63,7 +63,7 @@ $result = $statement->fetchAll();
         $style = '';
         if($row["status"] == '1')
         {
-         $style = 'text-decoration: line-through';
+         $style = 'background-color : green';
         }
     ?>
   <li style="<?php echo $style;?>" class="list-group-item d-flex justify-content-between align-items-start" id="list-group-item-<?php echo $row['task_id'];?>" data-id=<?php echo $row['task_id'];?> data-status=<?php echo $row['status'];?> >
@@ -129,9 +129,9 @@ $result = $statement->fetchAll();
     {
       $('#list-group-item-'+task_id).data('status', data); 
       if (data == 1) {
-        $('#list-group-item-'+task_id).css('text-decoration', 'line-through');
+        $('#list-group-item-'+task_id).css('background-color', 'green');
       } else {
-        $('#list-group-item-'+task_id).css('text-decoration', 'none');
+        $('#list-group-item-'+task_id).css('background-color', 'white');
       }
      
     }
