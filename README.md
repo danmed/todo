@@ -5,9 +5,9 @@ ToDo is a simple task / todo list written in PHP with a MySQL back end.
 # Requirements
 
 Tested on Debain 11 (Bullseye)
-
+```bash
 apt install mariadb-server php libapache2-mod-php php-zip php-mbstring php-cli php-common php-curl php-xml php-mysql
-
+```
 # Features
 
 * Add / Delete tasks
