@@ -47,6 +47,15 @@ nano conn.db
 ```
 edit the connection details to point to your mysql database (having imported the sql.sd file already)
 
+You can update to the latest version of ToDo by doing 
+
+```bash
+git pull
+```
+
+On the todo folder in /root/data/todo/html/todo
+
+
 Note : if anyone can help me do this properly it would be really appreciated!
 
 # Screenshots
