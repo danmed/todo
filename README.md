@@ -30,7 +30,7 @@ Create a database and import the .sql file for the structure
 edit conn.php to point to your Mysql Server details and database name
 
 # Docker Installation (a bit hacky but it works)
-
+```bash
 git clone https://github.com/danmed/Docker-LAMP-stack.git todo
 docker build todo
 cd todo
@@ -38,7 +38,7 @@ docker-compose up -d
 cd /root/data/todo/html
 git clone https://github.com/danmed/todo.git .
 nano conn.db
-
+```
 edit the connection details to point to your mysql database (having imported the sql.sd file already)
 
 Note : if anyone can help me do this properly it would be really appreciated!
