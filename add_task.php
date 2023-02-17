@@ -25,7 +25,7 @@ if($_POST["task_name"])
   $result = "<li class=\"list-group-item d-flex justify-content-between align-items-start\" id=\"list-group-item-$task\" data-id=$task>
             <div class=\"ms-2 me-auto\">
                 <div class=\"fw-bold\">$_POST[task_name]</div>
-                $_POST[task_name]
+                $_POST[person_name]
             </div>
             <span class=\"badge bg-danger rounded-pill\" data-id=$task>Delete</span>
             </li>";
