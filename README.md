@@ -53,7 +53,7 @@ You can update to the latest version of ToDo by doing
 git pull
 ```
 
-On the todo folder in /root/data/todo/html/todo
+On the todo folder in /root/data/todo/html
 
 
 Note : if anyone can help me do this properly it would be really appreciated!
