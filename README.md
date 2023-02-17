@@ -35,5 +35,8 @@ edit conn.php to point to your Mysql Server details and database name
 
 ![image](https://user-images.githubusercontent.com/3878490/219698831-2fab903f-4403-422e-bbc5-479e6d31363e.png)
 
+# Contributors
 
+* Original code by Wikleng - https://www.fiverr.com/wikieng
+* On going modifications by danmed - https://https://github.com/danmed
 
