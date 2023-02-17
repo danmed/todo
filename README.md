@@ -30,6 +30,9 @@ Create a database and import the .sql file for the structure
 edit conn.php to point to your Mysql Server details and database name
 
 # Docker Installation (a bit hacky but it works)
+
+This will create 3 containers... the webserver, mysql and phpmyadmin.. if you already have mysql and don't need phpymyadmin then cut them out of the docker-compose.yml
+
 ```bash
 git clone https://github.com/danmed/Docker-LAMP-stack.git todo
 docker build todo
