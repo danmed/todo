@@ -17,7 +17,10 @@ apt install mariadb-server php libapache2-mod-php php-zip php-mbstring php-cli p
 
 # Upcoming Features
 
-* Docker Container
+* Docker Container - Kind of implemented
+* Edit existing task
+* Optional notifications on task addition / deletion / change
+* Mark as "In Progress" - highlight orange on first click, then green on second click
 
 # Installation
 
